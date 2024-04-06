@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+
+}
+body{
+    background-image: url(https://cdn.pixabay.com/animation/2023/04/12/11/30/11-30-44-914_512.gif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+    
+}
+.container{
+    background-color:rgb(59, 111, 146) ;
+    border: 3px dashed rgb(83, 183, 83);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 30px;
+}
+h3{
+    color: brown;
+    font-size: 28.5px;
+    margin-bottom: 15px;
+}
+input{
+    height: 30px;
+    width: 250px;
+    margin-bottom: 20px;
+    color: black;
+}
+button{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 9px;
+    border-radius: 5px;
+    border: 1.5px solid rgb(85, 27, 27);
+}
